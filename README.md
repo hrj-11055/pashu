@@ -20,8 +20,8 @@
 
 ### 1. 克隆项目
 ```bash
-git clone https://github.com/yourusername/douban-book-spider.git
-cd douban-book-spider
+git clone https://github.com/hrj-11055/pashu.git
+cd pashu
 ```
 
 ### 2. 创建虚拟环境
@@ -48,13 +48,13 @@ python enhanced_douban_spider.py
 ### 自定义书单
 修改脚本中的URL：
 ```python
-doulist_url = "https://www.douban.com/doulist/YOUR_LIST_ID/?start=0&sort=seq&playable=0&sub_type="
+doulist_url = "https://www.douban.com/doulist/45298673/?start=0&sort=seq&playable=0&sub_type="
 ```
 
 ## 📁 项目结构
 
 ```
-douban-book-spider/
+pashu/
 ├── enhanced_douban_spider.py    # 增强版爬虫（推荐）
 ├── create_excel_simple.py       # Excel文件生成器
 ├── working_douban_spider.py     # 基础版爬虫
@@ -188,8 +188,8 @@ print(f"Excel文件已生成: {excel_file}")
 
 ## 📞 联系方式
 
-- 项目链接: [https://github.com/yourusername/douban-book-spider](https://github.com/yourusername/douban-book-spider)
-- 问题反馈: [Issues](https://github.com/yourusername/douban-book-spider/issues)
+- 项目链接: [https://github.com/hrj-11055/pashu](https://github.com/hrj-11055/pashu)
+- 问题反馈: [Issues](https://github.com/hrj-11055/pashu/issues)
 
 ---
 
